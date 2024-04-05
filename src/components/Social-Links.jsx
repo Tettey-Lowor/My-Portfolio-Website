@@ -42,7 +42,7 @@ export default function SocialLinks() {
               Resume <BsFillPersonLinesFill size={30} />
             </>
           ),
-          href: '',
+          href: '/Tettey-Lowor Fredericka-Resume.pdf',
           style: "rounded-br-md",
           download: true,
         },

@@ -24,7 +24,7 @@ export default function Skills() {
             {/* <img src="https://www.svgrepo.com/show/164986/logo.svg" loading="lazy" width="200" height="200"class="w-12 h-12 rounded-full" style="color:transparent"> */}
             <div class="space-y-2">
               <h5 class="text-xl font-semibold text-white transition group-hover:text-secondary">Design & Development</h5>
-              <p class="text-gray-300">I started learning to code after my one year of serveice without having any prior knowledge but i wanted to prove a point to myself,well and I  succeeded😉. Over time, i have gained a wealth of experience designing and developing websites and webapps and I aim to do better.       </p>
+              <p class="text-gray-300">I started learning to code after my one year of serveice without having any prior knowledge but i wanted to prove a point to myself, well and I  succeeded😉. Over time, i have gained a wealth of experience designing and developing websites and webapps and I aim to do better.       </p>
             </div>
           </div>
         </div>
