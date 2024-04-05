@@ -21,8 +21,8 @@ export default function Projects() {
                     <div class="mt-4 flex items-center justify-between">
                         
                         
-                        <button
-                            class="px-4 py-2 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 trans<ition duration-200">See more</button>
+                        <a href='https://green-growth-landing.vercel.app/'><button
+                            class="px-4 py-2 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 trans<ition duration-200">See more</button></a>
                        
                     </div>
                 </div>
@@ -64,7 +64,7 @@ export default function Projects() {
                     <div class="mt-4 flex items-center justify-between">
                         
                          
-                        < a href="https://green-growth-landing.vercel.app/">
+                        < a href="https://movie-app-blue-alpha.vercel.app/">
                         <button
                             class="px-4 py-2 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 +transition duration-200">See more</button>
                         </a> 

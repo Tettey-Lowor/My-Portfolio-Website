@@ -1,9 +1,74 @@
-import React from 'react'
+import React from 'react';
+import html from '../Assets/html-logo.png';
+import css from '../Assets/css.jpg';
+import react from '../Assets/react-logo.png';
+import git from '../Assets/git-logo.png';
+import javascript from '../Assets/js-logo.png';
+import tailwind from '../Assets/tailwind-logo.png';
+import expressjs from '../Assets/express-js.logo.png';
+
 
 export default function Skills() {
+
+  const techs = [
+    {
+      id: 1,
+      src: html,
+      title: "HTML",
+      proficiency: "Intermediate",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 2,
+      src: css,
+      title: "CSS",
+      proficiency: "Intermediate",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 3,
+      src: javascript,
+      title: "Javascript",
+      proficiency: "Basic",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 4,
+      src: react,
+      title: "React",
+      proficiency: "Intermediate",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 5,
+      src: tailwind,
+      title: "Tailwind",
+      proficiency: "Basic",
+      style: "shadow-sky-400",
+    },
+
+   
+    {
+      id: 7,
+      src: expressjs,
+      title: "Express Js",
+      proficiency: "Basic",
+      style: "shadow-white",
+    },
+    {
+      id: 8,
+      src: git,
+      title: "Git",
+      proficiency: "Basic",
+      style: "shadow-orange-500",
+    },
+  ];
+ 
+
+
   return (
-    <div class="bg-gray-900 p-4 min-h-screen mb-20 mt-20">
-    <div aria-hidden="true" class="absolute inset-0 h-max w-full m-auto grid grid-cols-2 gap-10 -space-x-52 opacity-20 mb-30">
+    <div class="bg-black p-4 min-h-screen mb-20 mt-20" >
+    <div aria-hidden="true" class="absolute inset-0 h-max w-full m-auto grid grid-cols-2 gap-10 -space-x-52 opacity-20 mb-40 py-10">
       <div class="blur-[106px] h-56 bg-gradient-to-br  to-purple-400 from-blue-700"></div>
       <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400  to-indigo-600 mb-20"></div>
     </div>
@@ -17,8 +82,28 @@ export default function Skills() {
         <h2 class="my-8 text-2xl font-bold text-white md:text-4xl">My Skills</h2>
         <p class="text-gray-300">I have built both Technical and Professional skills and some of them are below</p>
       </div>
+    <h1 className="mt-20 text-4xl text-white mb-10 text-center">Technical Skills</h1>
+    <div>
+    <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0 text-white">
+          {techs.map(({ id, src, title, proficiency, style }) => (
+            <div
+              key={id}
+              className={`shadow-md duration-200 hover:scale-500 py-2 rounded-lg ${style}`}
+            >
+              <img src={src} alt="" className="w-20  mx-auto"></img>
+              <p className="mt-4">{title}</p>
+              <p className="mt-4">{proficiency}</p>
+            </div>
+          ))}
+        </div>
+    </div>
+    <h1 className="mt-10 text-4xl text-white text-center">Soft Skills </h1>
+
       <div
+
         class="mt-16 grid divide-x divide-y  divide-gray-700 overflow-hidden  rounded-3xl border text-gray-600 border-gray-700 sm:grid-cols-2 lg:grid-cols-4  lg:divide-y-0 xl:grid-cols-4">
+          
+          
         <div class="group relative bg-gray-800 transition hover:z-[1] hover:shadow-2xl  hover:shadow-gray-600/10">
           <div class="relative space-y-8 py-12 p-8">
             {/* <img src="https://www.svgrepo.com/show/164986/logo.svg" loading="lazy" width="200" height="200"class="w-12 h-12 rounded-full" style="color:transparent"> */}
@@ -58,5 +143,6 @@ export default function Skills() {
       </div>
     </div>
   </div>
-  )
-}
+  )}
+          
+

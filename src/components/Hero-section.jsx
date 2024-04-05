@@ -1,14 +1,14 @@
 import React from 'react';
 import Image1 from '../Assets/Headshot.jpg'
-import SocialLinks from './Social-Links';
+
 import { MdCloudDownload } from "react-icons/md";
 
 
 export default function HeroSection() {
   return (
     <>
-   <SocialLinks/>
-<div class="bg-gray-900 py-20">
+   
+<div name="home" class=" w-full h-screen  bg-gray-900 py-20">
     <div class="container mx-auto px-6 md:px-12">
         <div class="flex flex-col md:flex-row items-center">
             <div class="md:w-1/2 lg:w-2/3">

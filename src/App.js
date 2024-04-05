@@ -6,6 +6,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/footer';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import SocialLinks from './components/Social-Links';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -15,7 +17,10 @@ function App() {
   <About/>
   <Skills/>
   <Projects/>
+  <Contact/>
   <Footer/>
+  
+  <SocialLinks/>
   
   </>
   );
