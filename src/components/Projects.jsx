@@ -3,6 +3,7 @@ import image2 from '../Assets/Screenshot 2024-04-05 120245.png';
 import image3 from '../Assets/WhatsApp Image 2024-04-05 at 10.35.44 AM.jpeg';
 import image4 from '../Assets/movies app.png';
 import { Link } from 'react-router-dom';
+import image5 from '../Assets/FreshMarket.jpeg'
 
 
 
@@ -68,6 +69,21 @@ export default function Projects() {
                         <button
                             class="px-4 py-2 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 +transition duration-200">See more</button>
                         </a> 
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src={image5} alt="Coffee"
+                    class="w-full h-64 object-cover"/>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Fresh Market Admin DashBoard</h3>
+                    <p class="text-gray-700 text-base">A Project with CoExtreme to aid Immersion into the work environment a during the GROW web development program. In this project i worked in a team of three to develop a dahboard for an ecommerce app.</p>
+                    <div class="mt-4 flex items-center justify-between">
+                        
+                        
+                        <a href='https://fresh-market-frontend.vercel.app/'><button
+                            class="px-4 py-2 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 trans<ition duration-200">See more</button></a>
+                       
                     </div>
                 </div>
             </div>
