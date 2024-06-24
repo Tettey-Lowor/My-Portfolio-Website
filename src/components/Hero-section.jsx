@@ -20,9 +20,9 @@ export default function HeroSection() {
                     Welcome to my Portfolio Website!
                 </p>
                 <div class="flex gap-2">
-                    <a href="/Tettey-Lowor Fredericka-Resume.pdf" class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-md">Download CV
+                    <a href="/Tettey-Lowor Fredericka-Resume.pdf" class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-md">My CV
                     <span className="group-hover:rotate-360 duration-300">
-                  <MdCloudDownload size={25} className="ml-1" />
+                  {/* <MdCloudDownload size={25} className="ml-1" /> */}
                 </span>
                     </a>
                     <a href="#" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-md">Learn

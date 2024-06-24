@@ -80,7 +80,7 @@ export default function Skills() {
             clip-rule="evenodd"></path>
         </svg>
         <h2 class="my-8 text-2xl font-bold text-white md:text-4xl">My Skills</h2>
-        <p class="text-gray-300">I have built both Technical and Professional skills and some of them are below</p>
+        <p class="text-gray-300 text-2xl">I have built both Technical and Professional skills and some of them are below</p>
       </div>
     <h1 className="mt-20 text-4xl text-white mb-10 text-center">Technical Skills</h1>
     <div>

@@ -7,7 +7,9 @@ export default function Footer() {
     <nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium mt-10">
         <a class="hover:text-gray-900" href="#">Home</a>
         <a class="hover:text-gray-900" href="#">About</a>
-        <a class="hover:text-gray-900" href="#">Contact</a>
+        {/* <a class="hover:text-gray-900" href="#">Contact</a> */}
+        <p> Contact: Email: frederickatettey10@gmail.com
+        Tel: +233547805776</p>
     </nav>
 
     <div class="flex justify-center space-x-5 ">
@@ -18,9 +20,9 @@ export default function Footer() {
         ">
             <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
             <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
-        </a>
+        </a> */}
         <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
             <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
         </a>
